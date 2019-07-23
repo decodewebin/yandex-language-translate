@@ -11,5 +11,10 @@
     "minimum-stability": "dev",
     "require": {
         "guzzlehttp/guzzle": "^6.3"
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Decodewebin\\YandexTranslate\\": "src/"
+        }
+    },
 }

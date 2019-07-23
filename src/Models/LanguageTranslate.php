@@ -1,6 +1,6 @@
 <?php
 
-namespace Decodewebin\YandexTranslate;
+namespace Decodewebin\YandexTranslate\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

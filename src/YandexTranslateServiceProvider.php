@@ -12,8 +12,8 @@ class YandexTranslateServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Decodewebin\YandexTranslate\YandexTranslateController');
-        $this->loadViewsFrom(__DIR__.'/views', 'translator');
+        $this->app->make('Decodewebin\YandexTranslate\Http\Controllers\YandexTranslateController');
+        $this->loadViewsFrom(__DIR__.'/views', 'translator'); //translator is package name
     }
 
     /**
@@ -24,7 +24,7 @@ class YandexTranslateServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__.'/routes.php');
-        $this->loadMigrationsFrom(__DIR__.'/migrations/2019_07_23_052548_create_languages_table.php'); // no need to export or publish to database/migrations
+        $this->loadMigrationsFrom(__DIR__ . '/database/migrations/2019_07_23_052548_create_languages_table.php'); // no need to export or publish to database/migrations
 
         //publishing essential parts
         $this->publishes([

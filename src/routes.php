@@ -1,4 +1,6 @@
 <?php
 
-Route::get('translate', 'Decodewebin\YandexTranslate\YandexTranslateController@viewTranslatePage');
-Route::post('translate-string', 'Decodewebin\YandexTranslate\YandexTranslateController@translateString')->name('translate.string');
+Route::group(['namespace'=>'Decodewebin\YandexTranslate'], function (){
+    Route::get('translate', 'Decodewebin\YandexTranslate\YandexTranslateController@viewTranslatePage');
+    Route::post('translate-string', 'Decodewebin\YandexTranslate\YandexTranslateController@translateString')->name('translate.string');
+});

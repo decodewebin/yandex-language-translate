@@ -1,6 +1,6 @@
 <?php
 
-namespace Decodewebin\YandexTranslate;
+namespace Decodewebin\YandexTranslate\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;

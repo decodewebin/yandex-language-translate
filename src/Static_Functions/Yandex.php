@@ -1,6 +1,6 @@
 <?php
 
-namespace Decodewebin\YandexTranslate;
+namespace Decodewebin\YandexTranslate\Static_Functions;
 
 class Yandex
 {

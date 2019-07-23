@@ -1,6 +1,6 @@
 <?php
 
-namespace Decodewebin\YandexTranslate;
+namespace Decodewebin\YandexTranslate\database\seeds;
 
 use Illuminate\Database\Seeder;
 
