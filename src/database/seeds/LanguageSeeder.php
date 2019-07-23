@@ -3,6 +3,7 @@
 namespace Decodewebin\YandexTranslate\database\seeds;
 
 use Illuminate\Database\Seeder;
+use Decodewebin\YandexTranslate\Models\LanguageTranslate;
 
 class LanguageSeeder extends Seeder
 {
