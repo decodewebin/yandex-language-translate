@@ -5,7 +5,7 @@ namespace Decodewebin\YandexTranslate\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Decodewebin\YandexTranslate\Yandex;
+use Decodewebin\YandexTranslate\Static_Functions\Yandex;
 use Decodewebin\YandexTranslate\Models\LanguageTranslate;
 use GuzzleHttp\Client;
 
