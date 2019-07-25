@@ -16,5 +16,12 @@
         "psr-4": {
             "Decodewebin\\YandexTranslate\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Decodewebin\\YandexTranslate\\YandexTranslateServiceProvider"
+            ]
+        }
     }
 }
