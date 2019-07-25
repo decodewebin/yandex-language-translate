@@ -1,6 +1,6 @@
 {
     "name": "decodewebin/yandex-language-translate",
-    "description": "A laravel package to translate message into different languages using yoast's free translate api",
+    "description": "A laravel package to translate message into different languages using yandex's free translate api",
     "license": "MIT",
     "authors": [
         {
